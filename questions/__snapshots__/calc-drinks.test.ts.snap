@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`3 1`] = `1`;
+
+exports[`10 1`] = `5`;

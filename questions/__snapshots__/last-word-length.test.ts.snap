@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test last word length from a string 1`] = `4`;
+
+exports[`test last word length from a string with symbol 1`] = `5`;
