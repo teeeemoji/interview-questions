@@ -1,7 +1,9 @@
 /**
- * 输入一个int型的正整数，计算出该int型数据在内存中存储时1的个数。
- * @param num 输入一个整数（int类型）
- * @returns 这个数转换成2进制后，输出1的个数
+ * @description 输入一个int型的正整数，计算出该int型数据在内存中存储时1的个数。
+ * @tag 位运算
+ * @level 简单
+ * @param num {Number} 输入一个整数（int类型）
+ * @returns {Number} 这个数转换成2进制后，输出1的个数
  */
 function binaryInclude1(num: number): number {
     let cur: number = num
