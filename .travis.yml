@@ -21,7 +21,9 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
+  local_dir: ./docs
   github_token: $GITHUB_TOKEN
   keep_history: false
+  target_branch: gh-page
   on:
-    branch: gh-page
+    branch: master
