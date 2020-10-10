@@ -11,3 +11,4 @@ test('10101010', () => {
 test('10110000', () => {
     expect(binaryInclude1(parseInt('10110000', 2))).toMatchSnapshot()
 })
+ 
