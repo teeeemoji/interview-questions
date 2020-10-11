@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A10;S20;W10;D30;X;A1A;B10A11;;A10; 1`] = `
+Array [
+  10,
+  -10,
+]
+`;
