@@ -18,7 +18,7 @@
       </div>
       <div class="question-description row">
         <div class="title">题目</div>
-        <div class="content">{{ description }}</div>
+        <div class="content description" v-html="description"></div>
       </div>
       <div class="question-params row">
         <div class="title">输入</div>
@@ -129,6 +129,11 @@ export default {
 <style lang="css">
 @import '~codemirror/lib/codemirror.css';
 @import '~codemirror/theme/monokai.css';
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
 </style>
 
 <style lang="css" scoped>
@@ -148,6 +153,7 @@ export default {
 .content {
   flex-grow: 1;
   flex-shrink: 1;
+  max-width: calc(100% - 32px);
 }
 
 table {
